@@ -1,10 +1,10 @@
-# 0-hello_world
+# Scripts Description
 
-This script is a simple example that prints "Hello, World" to the standard output. It serves as a basic introduction to writing and executing scripts in the Bash programming language.
+## 0-hello_world
 
-## Usage
+This script prints "Hello, World" to the standard output. It serves as a basic introduction to writing and executing scripts in the Bash programming language.
 
-To run the script, navigate to the directory where it is located and execute the following command:
+##
 
-```bash
-./0-hello_world
+...
+
