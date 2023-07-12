@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Check if input is provided as an argument or through stdin
+if [ -z "$1" ]; then
+    # Read input from stdin
+    read -r input
+else
+    # Read input from file
+    input=$(cat "$1")
+fi
+
+# Reverse the input
+reversed=$(echo "$input" | rev)
+
+# Print the reversed input
+echo "$reversed"
+
